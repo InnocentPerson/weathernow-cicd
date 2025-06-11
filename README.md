@@ -1,17 +1,39 @@
-# WeatherNow CI/CD
+# 🌦️ WeatherNow CI/CD Pipeline
 
-This project demonstrates a CI/CD pipeline for a Node.js Weather App using:
+A fully-automated DevOps project demonstrating a CI/CD pipeline for a simple Node.js weather application using:
 
+- **Jenkins** (CI/CD Orchestration)
+- **Docker** (Containerization)
+- **SonarQube** (Code Quality Analysis)
+- **AWS EC2** (Deployment Target)
+
+---
+
+## 🚀 Features
+
+✅ CI/CD with Jenkins  
+✅ Dockerized Node.js App  
+✅ Static Code Analysis via SonarQube  
+✅ Auto-deployment to AWS EC2  
+✅ GitHub Source Integration  
+
+---
+
+## 🧰 Technologies Used
+
+- Node.js + Express
 - Jenkins
-- Docker
+- Docker + DockerHub
 - SonarQube
 - AWS EC2
+- Git & GitHub
 
-## How It Works
+---
 
-1. Code is pulled from GitHub by Jenkins.
-2. Jenkins installs dependencies and runs tests.
-3. Code is analyzed by SonarQube.
-4. Docker image is built and pushed to DockerHub.
-5. Image is deployed to AWS EC2 using SSH and Docker.
+## 🔧 How to Run Locally
 
+```bash
+git clone https://github.com/InnocentPerson/weathernow-cicd.git
+cd weathernow-cicd
+npm install
+node app.js
